@@ -80,7 +80,8 @@ public class JsonNodeEvaluatorTest {
             .put("int", 1);
 
         Object object = jsonNodeEvaluator.evaluateNode(node);
-        Map resultMap = objectMapper.readValue(object.toString(), Map.class);
+        String jsonString = objectMapper.writeValueAsString(object);
+        Map resultMap = objectMapper.readValue(jsonString, Map.class);
 
         Map expectedMap = new HashMap(){{
             put("string", "string");

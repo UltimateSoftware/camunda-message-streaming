@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>com.ultimatesoftware.workflow</groupId>
 		<artifactId>camunda-message-streaming-parent</artifactId>
-		<version>0.4.5-SNAPSHOT</version>
+		<version>0.4.6-SNAPSHOT</version>
 		<relativePath>..</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
 	<artifactId>camunda-message-streaming-kafka</artifactId>
-	<version>0.4.5-SNAPSHOT</version>
+	<version>0.4.6-SNAPSHOT</version>
 	<name>streaming-kafka</name>
 	<description>Classes that support stream to and from Kafka</description>
 
